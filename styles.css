@@ -16,7 +16,6 @@ body {
 /*--------------------------------------------------------------------*/
 
 header {
-    flex: 2;
     display: flex;
     flex-direction: column;
 
@@ -109,8 +108,69 @@ header .bottom {
 }
 /*--------------------------------------------------------------------*/
 section {
-    flex: 4;
+
 }
+
+section .top {
+    padding: 0 10rem;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+section .top .info {
+    display: flex;
+
+    margin: 1rem 0;
+}
+
+section .top .info div{
+    justify-items: center;
+    text-align: center;
+}
+
+.info div p {
+    font-size: 13px;
+    padding: 0 10px;
+
+    color: hsl(220, 13%, 40%);
+}
+
+.box {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+section .middle {
+     background: #E5E7EB;
+}
+
+section .middle div{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-end;
+
+    padding: 3rem 14rem;
+}
+
+.middle div p {
+    font-size: 16.5px;
+    font-weight: 300;
+    font-style: italic;
+
+    color: hsl(220, 13%, 20%);
+}
+
+.middle div strong {
+    font-size: 14px;
+}
+
 
 /*--------------------------------------------------------------------*/
 
