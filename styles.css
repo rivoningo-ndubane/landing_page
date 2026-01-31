@@ -58,7 +58,7 @@ header .bottom {
     margin: 4rem 0;
 }
 
-.left {
+header .bottom .left {
     flex: 1;
     /* padding: 0 14rem 0 0; */
 }
@@ -92,7 +92,7 @@ header .bottom {
     margin: 0;
 }
 
-.right {
+header .bottom .right {
     flex: 1;
     padding: 4rem 0;
 
@@ -138,7 +138,7 @@ section .top .info div{
     color: hsl(220, 13%, 40%);
 }
 
-.box {
+.info div .box {
     border: 3px solid #3882F6;
     border-radius: 10px;
     width: 100px;
@@ -171,7 +171,41 @@ section .middle div{
     font-size: 14px;
 }
 
+section .bottom {
+    padding: 5rem 10rem;
+}
 
+section .bottom .box {
+    background-color: #3882F6;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1.5rem 5.5rem;
+}
+
+.box .left h2{
+    font-size: 12px;
+    color: hsl(220, 13%, 95%);
+}
+
+.box .left p {
+    color: hsl(220, 13%, 75%);
+}
+ .box .right button {
+    color: hsl(220, 13%, 95%);
+    background: #3882F6;
+
+    font-size: 10px;
+    padding: 4px 14px;
+
+    border-radius: 6px;
+    border: 2px solid hsl(220, 13%, 95%);;
+
+    margin: 0;
+ }
 /*--------------------------------------------------------------------*/
 
 footer {
@@ -184,6 +218,6 @@ footer {
     background: #1F2937;
     color: hsl(220, 13%, 80%);
 
-    font-size: 7px;
+    font-size: 10px;
     padding: 2px 0;
 }
